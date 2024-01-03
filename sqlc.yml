@@ -1,0 +1,8 @@
+version: "1"
+packages:
+  - name: "query"
+    path: "query"
+    queries: "./database/query/"
+    schema: "./database/schema/"
+    engine: "mysql"
+    json_tags_case_style: "camel"
